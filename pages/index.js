@@ -10,7 +10,7 @@ const Index = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        {/* <Header> */}
+        <Header>
           <Menu mode="horizontal" theme="dark">
             <Menu.Item key="product">
               <h3>Product</h3>
@@ -19,7 +19,7 @@ const Index = () => {
               <h3>About</h3>
             </Menu.Item>
           </Menu>
-        {/* </Header> */}
+        </Header>
       </Layout>
 
     </div>
